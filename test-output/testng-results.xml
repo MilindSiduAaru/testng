@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-24T18:08:18 IST" name="Suite" finished-at="2022-02-24T18:09:00 IST" duration-ms="42334">
+    <groups>
+    </groups>
+    <test started-at="2022-02-24T18:08:18 IST" name="Test" finished-at="2022-02-24T18:09:00 IST" duration-ms="42334">
+      <class name="TestCases.Verify_SignUpPahe">
+        <test-method signature="LaunchBrowser2()[pri:0, instance:TestCases.Verify_SignUpPahe@53ce1329]" started-at="2022-02-24T18:08:29 IST" name="LaunchBrowser2" finished-at="2022-02-24T18:09:00 IST" duration-ms="30629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser2 -->
+      </class> <!-- TestCases.Verify_SignUpPahe -->
+      <class name="TestCases.VerifyLogin_Page">
+        <test-method signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerifyLogin_Page@342c38f8]" started-at="2022-02-24T18:08:18 IST" name="launchBrowser" data-provider="getData" finished-at="2022-02-24T18:08:24 IST" duration-ms="6144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCases.VerifyLogin_Page@342c38f8]" started-at="2022-02-24T18:08:24 IST" name="launchBrowser" data-provider="getData" finished-at="2022-02-24T18:08:29 IST" duration-ms="5479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- TestCases.VerifyLogin_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
