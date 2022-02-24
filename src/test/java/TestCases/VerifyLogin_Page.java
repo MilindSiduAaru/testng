@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import pageObjectModel.LoginPageObject;
 import resources.BaseClass;
-
+//Adding for git Demo
 public class VerifyLogin_Page extends BaseClass{
 	@Test(dataProvider="getData")
 	public void launchBrowser(String Username, String pass) throws IOException  {
